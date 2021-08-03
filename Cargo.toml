@@ -1,0 +1,12 @@
+[package]
+name = "nanos-sdk-rs"
+description = "Nanos-world module SDK bindings for Rust"
+version = "0.1.0"
+edition = "2018"
+keywords = ["nanos", "nanos-world", "sdk"]
+
+[dependencies]
+
+
+[build-dependencies]
+bindgen = "0.59.1"
