@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["nanos_sdk_rs"];
