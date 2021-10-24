@@ -1,9 +1,13 @@
 [package]
 name = "nanos-sdk-rs"
-description = "Nanos-world module SDK bindings for Rust"
+description = "nanos-world module SDK bindings for Rust"
 version = "0.1.0"
-edition = "2018"
-keywords = ["nanos", "nanos-world", "sdk"]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/Vurv78/nanos-sdk-rs"
+readme = "README.md"
+keywords = ["nanos", "world", "nanos-world", "lua", "sdk"]
+categories = ["game-development", "external-ffi-bindings"]
 
 [dependencies]
 
