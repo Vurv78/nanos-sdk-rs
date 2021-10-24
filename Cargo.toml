@@ -1,7 +1,7 @@
 [package]
 name = "nanos-sdk-rs"
 description = "nanos-world module SDK bindings for Rust"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 repository = "https://github.com/Vurv78/nanos-sdk-rs"

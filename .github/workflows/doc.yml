@@ -23,6 +23,11 @@ jobs:
         - name: Set LIBCLANG_PATH
           run: echo "LIBCLANG_PATH=$((gcm clang).source -replace "clang.exe")" >> $env:GITHUB_ENV
 
+        - name: Prep Cargo
+          run: |
+            rustup toolchain install 1.56.0
+            rustup default 1.56.0
+
         - name: Build
           run: cargo build
 
